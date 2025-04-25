@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Download free and premium PC emulators. Explore retro and modern tools for gaming enthusiasts.">
+  <title>PHANTOMXEMU</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    @font-face {
+      font-family: 'RoadRageLocal';
+      src: url('Road_Rage.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Montserrat', sans-serif;
+      background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTB6bGUzYmRsZDVkdDM3Zjd0cmI3Z2dvZWZkbTV0ZzZmNXdma24zaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tdC6N1RKNp4swre2JY/giphy.gif') no-repeat center center fixed;
+      background-size: cover;
+      color: #f0f0f0;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.75);
+      z-index: -1;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 50px;
+      animation: fadeIn 2s ease-out;
+    }
+
+    header h1 {
+      font-family: 'RoadRageLocal', cursive;
+      font-size: 4em;
+      color: #ffffff;
+      text-shadow: none;
+      transition: all 0.3s ease;
+    }
+
+    header h1:hover {
+      color: #d57eff;
+      text-shadow: 0 0 10px #d57eff, 0 0 30px #b668f3, 0 0 50px #9b51e0;
+    }
+
+    header p {
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #aaa;
+      animation: fadeIn 3s ease-out;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 2em;
+      margin-bottom: 30px;
+      color: #ffffff;
+      text-align: center;
+      text-shadow: none;
+      transition: all 0.3s ease;
+    }
+
+    .section h2:hover {
+      color: #d57eff;
+      text-shadow: 0 0 10px #d57eff, 0 0 30px #b668f388;
+      cursor: default;
+    }
+
+    .emulator-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(213, 126, 255, 0.2);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      padding: 30px;
+      width: 280px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 15px #d57effcc, 0 0 25px #b668f388;
+      border-color: #d57eff;
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      font-size: 1.5em;
+      color: #f0f0f0;
+    }
+
+    .card p {
+      font-size: 0.95em;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #d57eff;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s, box-shadow 0.3s;
+      box-shadow: 0 0 10px #d57eff88;
+    }
+
+    .btn:hover {
+      background: #9b51e0;
+      box-shadow: 0 0 20px #b668f3cc, 0 0 30px #b668f388;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9em;
+      color: #aaa;
+      background: rgba(0, 0, 0, 0.85);
+      margin-top: auto;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PHANTOMXEMU</h1>
+    <p>Download free emulators or explore our premium collection!</p>
+  </header>
+
+  <section class="section" id="free">
+    <h2>FREE EMULATORS</h2>
+    <div class="emulator-list">
+      <div class="card">
+        <h3>SPEEDX 2.0</h3>
+        <p></p>
+        <a href="https://mega.nz/file/KEtBHAbI#v9G2APchgUjqXelIk5AdMwXhrc0RPbgZzsT9xni-Zs8" class="btn">Free Download</a>
+      </div>
+      <div class="card">
+        <h3>PXE4</h3>
+        <p></p>
+        <a href="https://mega.nz/file/GZkzEDCa#6IC6RMm06DlOgB_QxkKtIQ_ocjizXxvhh3FdL08mRGM" class="btn">Free Download</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="premium">
+    <h2>PAID EMULATORS</h2>
+    <div class="emulator-list">
+      <div class="card">
+        <h3>PEANUT</h3>
+        <p>DEV BY PHANTOMXEMU</p>
+        <a href="#" class="btn" aria-disabled="true" role="button">Coming Soon</a>
+      </div>
+      <div class="card">
+        <h3>E4VX</h3>
+        <p>RE-MOD BY ME</p>
+        <a href="#" class="btn" aria-disabled="true" role="button">Coming Soon</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2024 PHANTOMXEMU
+  </footer>
+
+</body>
+</html>
